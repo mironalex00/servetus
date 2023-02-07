@@ -1,6 +1,83 @@
 # Servetus
 Repositorio oficial del proyecto para el alumnado de APSD
 
+---
+
+##  Manera de trabajo antes de subir cualquier cambio
+
+Antes de empezar a trabajar se debe traer todos los cambios que tenga la rama principal del proyecto.
+
+El método a realizar es el siguiente:
+
+```
+Git checkout main
+Git fetch
+Git pull
+```
+
+En caso de que no exista la rama de trabajo en la que se vaya a trabajar:
+
+```
+Git checkout -b feature/MiRamaDeTrabajo
+```
+
+En caso de existir:
+
+```
+Git checkout feature/MiRamaDeTrabajo
+Git rebase main
+```
+
+Si <u>**NO**</u> se recibe el siguiente mensaje **CURRENT BRANCH IS UP TO DATE** se deben solucionar los conflictos (Si no se sabe cómo hacer, preguntar a quién sepa).
+
+En caso de recibir el mensaje, finaliza el procedimiento. Escribir dentro de la <u>**RAMA LOCAL**</u>:
+
+```
+Git push -f
+```
+
+Empezar a trabajar en esa rama.
+
+---
+
+##  Manera de trabajo para subir cambios
+
+Cada vez que se termine cualquier cosa, asegurando siempre que todo lo integrado functiona correctamente con todo lo programado existente:
+
+```
+Git checkout main
+Git fetch
+Git pull
+```
+
+Para añadir <u>**TODOS**</u> los archivos modificados, para añadir todos:
+
+```
+Git add .
+```
+
+Para añadir los archivos modificados que se deseen, para añadir todos:
+
+```
+Git add carpeta/archivo
+```
+
+Crear un commit con los cambios realizados:
+
+``` 
+Git commit -m "Texto descriptivo"
+``` 
+
+Subir los cambios de <u>**rama local**</u> a <u>**GIT**</u> se deberá introducir:
+
+```
+Git push
+```
+
+Crear una pull request, para ello se puede seguir el siguiente [tutorial](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+---
+
 ## Licencias
 [MIT](https://choosealicense.com/licenses/mit/)
 
