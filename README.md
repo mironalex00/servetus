@@ -36,11 +36,11 @@ Se reflejan todos los cambios realizados en el proyecto.
     -   Añadido archivo [2.php](./views/hiring/2.php) encargado de la vista del calendario de disponibilidad
     -   Añadido archivo [3.php](./views/hiring/3.php) encargado de la vista de seleccionar al trabajador/a
     -   Añadido archivo [4.php](./views/hiring/4.php) encargado de la vista del pago
-1. Directorio [views](./views):
-    -   Añadido archivo [login.php](./views/header.php) encargado de la vista del login
-    -   Añadido archivo [main.php](./views/footer.php) encargado de la vista del main
-    -   Añadido archivo [payment.php](./views/footer.php) encargado de la vista del payment
-    -   Añadido archivo [service.php](./views/footer.php) encargado de la vista del service
+2. Directorio [views](./views):
+    -   Añadido archivo [login.php](./views/login.php) encargado de la vista del login
+    -   Añadido archivo [main.php](./views/main.php) encargado de la vista del main
+    -   Añadido archivo [payment.php](./views/payment.php) encargado de la vista del payment
+    -   Añadido archivo [service.php](./views/service.php) encargado de la vista del service
 
 ### Modificados 
 1. Archivo **header.php**:
