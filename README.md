@@ -38,7 +38,7 @@ Se reflejan todos los cambios realizados en el proyecto.
     -   Añadido archivo [4.php](./views/hiring/4.php) encargado de la vista del pago
 2. Directorio [views](./views):
     -   Añadido archivo [login.php](./views/login.php) encargado de la vista del login
-    -   Añadido archivo [main.php](./views/main.php) encargado de la vista del main
+    -   Añadido archivo [home.php](./views/home.php) encargado de la vista del main
     -   Añadido archivo [payment.php](./views/payment.php) encargado de la vista del payment
     -   Añadido archivo [service.php](./views/service.php) encargado de la vista del service
 
@@ -47,6 +47,6 @@ Se reflejan todos los cambios realizados en el proyecto.
     - Corrigiendo las rutas
 2. Archivo **footer.php**:
     - Corrigiendo las rutas
-3. Archivo **index.php**:*
+3. Archivo **index.php**:
     - Añadido código PHP que permite cargar contenido dinámico
     - Añadido código PHP que permite las url amigables
