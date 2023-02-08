@@ -1,5 +1,5 @@
 # Servetus
-Repositorio oficial del proyecto para el alumnado de APSD. Para el registro de cambios por favor seguir este [enlace](CHANGELOG.MD.md)
+Repositorio oficial del proyecto para el alumnado de APSD. Para el registro de cambios por favor seguir este [enlace](CHANGELOG.md)
 
 ---
 
