@@ -1,6 +1,6 @@
 # Changelog
 
-Se reflejan todos los cambios realizados en el proyecto. Para la documentación por favor seguir este [enlace](README.md)
+Se reflejan todos los cambios realizados en el proyecto. Para la documentación por favor seguir este [enlace](README.md) 
 
 ## [08/02/2023]
 
