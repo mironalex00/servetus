@@ -1,0 +1,107 @@
+{
+    "project" : {
+        "name" : "Servetus",
+        "year": 2022
+    },
+    "data": {        
+        "footer": {
+            "author": "Florentín",
+            "contact": {
+                "title": "datos de contacto",
+                "data": {
+                    "phone": {
+                        "title": "teléfono",
+                        "data": "666114488"
+                    },
+                    "location": {
+                        "title": "dirección",
+                        "data": "C. Alcala 337 28027"
+                    },
+                    "email": {
+                        "title": "correo electrónico",
+                        "data": "atencion.al.cliente@servetus.com"
+                    }
+                }
+            },
+            "promotions": {
+               "title": "promociones",
+                "data": [
+                    {
+                        "title": "servicio 1",
+                        "url": "/service/1"
+                    },
+                    {
+                        "title": "servicio 2",
+                        "url": "/service/2"
+                    },
+                    {
+                        "title": "servicio 3",
+                        "url": "/service/3"
+                    },
+                    {
+                        "title": "servicio 4",
+                        "url": "/service/4"
+                    },
+                    {
+                        "title": "servicio 5",
+                        "url": "/service/5"
+                    }
+                ]
+            }
+        },
+        "header": {
+            "author": "Florentín",
+            "title": "Servetus",
+            "slogan": "Te ayudaremos de la formas mas personal",
+            "menu": {
+                "home": "home",
+                "about": "sobre nosotros",
+                "services": "servicios"
+            },
+            "login": {
+                "url": "/login"
+            }
+        },
+        "home": {
+            "author" : "Wily"
+        },
+        "hiring" : {
+            "calendar": {
+                "author": "Adrián",
+                "title": "calendar picker"
+            },
+            "datauser": {
+                "author": "Mesut",
+                "title": "personal data"
+            },
+            "workers": {
+                "author": "Victor",
+                "title": "worker selection"
+            },
+            "payment": {
+                "author": "Rubén",
+                "title": "payment"
+            }
+        },
+        "services": {
+            "author": "Alexandru",
+            "pages": [
+                {
+                    "title": "servicio 1"
+                },
+                {
+                    "title": "servicio 2"
+                },
+                {
+                    "title": "servicio 3"
+                },
+                {
+                    "title": "servicio 4"
+                }
+            ]
+        },
+        "login": {
+            "author": "Mesut"
+        }
+    }
+}

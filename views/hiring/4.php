@@ -1,1 +1,3 @@
-<h1>Hiring - Payment Details</h1>
+<?php $datos = $data->hiring->payment; ?>
+<!--  TU CÓDIGO HTML  -->
+<?php require_once('skeleton.php'); ?>

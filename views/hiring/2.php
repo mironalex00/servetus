@@ -1,1 +1,3 @@
-<h1>Hiring - Calendar picker</h1>
+<?php $datos = $data->hiring->calendar; ?>
+<!--  TU CÓDIGO HTML  -->
+<?php require_once('skeleton.php'); ?>
