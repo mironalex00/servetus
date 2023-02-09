@@ -8,6 +8,6 @@
     #   
     $url = dirname($_SERVER['SCRIPT_NAME']);
     if(strcmp($url, PATH_SEPARATOR) === 1) {
-        $url = '.';
+        $url = null;
     }
 ?>
