@@ -1,4 +1,3 @@
-<?php $url = dirname($_SERVER['SCRIPT_NAME']); ?>
 <!DOCTYPE html>
 <html lang="<?=$lang ?>">
 <head>

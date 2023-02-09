@@ -76,5 +76,5 @@ Se reflejan todos los cambios realizados en el proyecto. Para la documentación 
     - Creada la estructura HTML para el Header
 2. Archivo **footer.php**:
     - Creada la estructura HTML para el Footer
-3. Archivo **main.php**:*
+3. Archivo **main.php**:
     - Creado el CSS de dar la apariencia para el **header** y el **footer**
