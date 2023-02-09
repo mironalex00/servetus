@@ -1,4 +1,3 @@
-<?php $url = dirname($_SERVER['SCRIPT_NAME']); ?>
 <!DOCTYPE html>
 <html lang="<?=$lang ?>">
 <head>
@@ -14,7 +13,7 @@
     <div class="cabecera">
       <div class="branding">
         <div class="logo">
-          <a href="<?= $url ?>" class="nombre text-uppercase"><?= $data->header->title ?></a>
+          <a href="<?= $url ?? '/' ?>" class="nombre text-uppercase"><?= $data->header->title ?></a>
           <img src="<?= $url ?>/assets/img/logo.png" alt="logotipo" class="imagen">
         </div>
         <p class="slogan"><?= $data->header->slogan ?></p>
@@ -27,7 +26,7 @@
         </div>
       </div>
       <div class="menu">
-        <a href="<?= $url ?>" class="c_menu text-capitalize"><?= $data->header->menu->home ?></a>
+        <a href="<?= $url ?? '/' ?>" class="c_menu text-capitalize"><?= $data->header->menu->home ?></a>
         <a href="<?= $url ?>/sobre_nosotros" class="c_menu text-capitalize"><?= $data->header->menu->about ?></a>
         <a href="<?= $url ?>/servicios" class="c_menu text-capitalize"><?= $data->header->menu->services ?></a>
       </div>
