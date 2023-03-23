@@ -1,1 +1,1 @@
-<h1><?= $datos->title ?></h1>
+<h1><?= $section->title ?></h1>

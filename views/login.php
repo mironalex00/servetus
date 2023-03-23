@@ -1,3 +1,2 @@
-<?php $datos = $data->login; ?>
 <!--  TU CÓDIGO HTML  -->
-<h1><?= $datos->author ?></h1>
+<h1><?= $section->title ?></h1>

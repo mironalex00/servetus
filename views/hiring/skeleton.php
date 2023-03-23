@@ -1,1 +1,1 @@
-<h1><?= $datos->author ?></h1>
+<h1><?= $section->author ?></h1>

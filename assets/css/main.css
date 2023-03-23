@@ -1,120 +1,88 @@
-html {
-  min-height: 100%;
-  position: relative;
+/*  BOOTSTRAP   */
+@media (min-width: 576px) {
+    .position-sm-static {
+        position: static !important;
+    }
+
+    .position-sm-relative {
+        position: relative !important;
+    }
+
+    .position-sm-absolute {
+        position: absolute !important;
+    }
+
+    .position-sm-fixed {
+        position: fixed !important;
+    }
+
+    .position-sm-sticky {
+        position: sticky !important;
+    }
 }
 
+@media (min-width: 768px) {
+    .position-md-static {
+        position: static !important;
+    }
 
-body{background-color: #f5f5f7;
-  margin: 0;
-  margin-bottom: 40px;}
-div, footer{
+    .position-md-relative {
+        position: relative !important;
+    }
 
-  display: flex;
-}
-.cabecera {
-  
-  flex-direction: column;
-  justify-content: space-between;
+    .position-md-absolute {
+        position: absolute !important;
+    }
 
-  padding: 0 20px;
-  background-color: #149bab;
-}
+    .position-md-fixed {
+        position: fixed !important;
+    }
 
-.logo {
-  text-decoration: none;
-
-
-}
-a{
-  color: black;
-  text-decoration: none;
-  text-decoration-line: none;
-}
-.menu {
-  
-  align-items: center;
-  justify-content: space-around;
-  height: 75px;
-  text-decoration: none;
-  
+    .position-md-sticky {
+        position: sticky !important;
+    }
 }
 
-.social-media {
+@media (min-width: 992px) {
+    .position-lg-static {
+        position: static !important;
+    }
 
-  align-items: center;
-  justify-content: space-around;
+    .position-lg-relative {
+        position: relative !important;
+    }
+
+    .position-lg-absolute {
+        position: absolute !important;
+    }
+
+    .position-lg-fixed {
+        position: fixed !important;
+    }
+
+    .position-lg-sticky {
+        position: sticky !important;
+    }
 }
 
-.nombre {
-  
-  color: black;
-  font-size: 30px;
-  margin-right: 20px;
+@media (min-width: 1200px) {
+    .position-xl-static {
+        position: static !important;
+    }
 
-}
+    .position-xl-relative {
+        position: relative !important;
+    }
 
-.c_menu {
-  color: black;
-  text-decoration: none;
+    .position-xl-absolute {
+        position: absolute !important;
+    }
 
-  text-align: center;
-  font-size: 25px;
-  margin-right: 20px;
-  background-color: #0c4147 ;
-  border-radius: 5px;
-  width: 8em;
-}
+    .position-xl-fixed {
+        position: fixed !important;
+    }
 
-.imagen {
-  height: 60px;
-  width: 60px;
-  aspect-ratio: 3/2;
-}
-
-.branding {
- 
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-i {
-  width: 1em;
-}
-
-.slogan {
-
-  align-items: center;
-  text-transform: capitalize;
-  /* font-variant: small-caps; */
-
-
-}
-
-/* ################################################### */
-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #d2d2d7;
-  align-items: center;
- height: fit-content;
-  flex-direction: column;
-}
-.columnas{
-  margin-top: 10px;
-}
-h6, h5, p{
-  line-height: 100%;
-  margin: 2px;
-  
-}
-.terminos{
-  color: dimgrey;
-}
-.datos{ align-items:flex-start ;
-  flex-direction: column;}
-.promociones{
-  
-  align-items: center;
-  flex-direction: column;
+    .position-xl-sticky {
+        position: sticky !important;
+    }
 }

@@ -1,3 +1,5 @@
-<?php $datos = $data->hiring->workers; ?>
+<?php 
+
+?>
 <!--  TU CÓDIGO HTML  -->
 <?php require_once('skeleton.php'); ?>
