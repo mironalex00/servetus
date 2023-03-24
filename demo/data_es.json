@@ -5,7 +5,11 @@
         "meta": {
             "author": "Alexandru Mirón",
             "description": "Servetus es un servicio con el cual de forma telemática podrás contratar personal para ayudarte.",
-            "keywords": ["Cuidado", "Atención a personas", "Servetus"]
+            "keywords": ["Cuidado", "Atención a personas", "Servetus"],
+            "logo": {
+                "icon": "favicon.ico",
+                "img": "bg-logo.png"
+            }
         }
     },
     "data": {        
@@ -13,22 +17,42 @@
             "author": "Florentín",
             "texts": {
                 "title": "datos de contacto",
-                "contact": {
-                    "phone": {
-                        "title": "teléfono",
-                        "data": "666114488"
+                "contact": [
+                    {
+                        "data": "atencion.al.cliente@servetus.com",
+                        "icon": "fas fa-envelope mx-3",
+                        "url": "mailto:${mail}?Subject=CONTACTO%20A%20SERVETUS"
                     },
-                    "location": {
-                        "title": "dirección",
-                        "data": "C. Alcala 337 28027"
+                    {
+                        "data": "C. Alcala 337 28027",
+                        "icon": "fas fa-home mx-3",
+                        "url": "http://maps.google.com/?q=${map}"
                     },
-                    "email": {
-                        "title": "correo electrónico",
-                        "data": "atencion.al.cliente@servetus.com"
+                    {
+                        "data": "+34612345678",
+                        "icon": "fas fa-phone mx-3",
+                        "url": "tel:${tel}"
                     }
-                },
+                ],
                 "promotions": {
-                   "title": "promociones"
+                   "title": "servicios más usados",
+                   "data": [
+                    {
+                        "title": "servicio 1",
+                        "url": "service/1",
+                        "views": "${view}"
+                    },
+                    {
+                        "title": "servicio 2",
+                        "url": "service/2",
+                        "views": "${view}"
+                    },
+                    {
+                        "title": "servicio 3",
+                        "url": "service/3",
+                        "views": "${view}"
+                    }
+                   ]
                 }
             }
         },

@@ -100,16 +100,16 @@ El archivo está estructurado por todos todas las páginas compuestas:
 
 Si se desea añadir una página y mantener la estructura del proyecto, se debe añadir al archivo **JSON** después del último, un objeto. 
 
-Para añadir los cambios al archivo PHP, antes de nada, escribir en el código:
+Para añadir los cambios al archivo PHP, antes de nada, no hay que realizar ninguna acción, el objeto **$section** se encarga.
 
 ```
-<?php $datos = $data->tuObjeto; ?>
+<?php $section; ?>
 ```
 
-Y para agregar los textos al HTML, dentro de la etiqueta, seguir la estructura del **<u>objeto JSON</u>** se deberá añadir:
+Para agregar los textos al HTML, dentro de la etiqueta, seguir la estructura del **<u>objeto JSON</u>** se deberá añadir:
 
 ```
-<?= $datos->tuObjeto->tuPropiedad ?>
+<?= $section->tuPropiedad ?>
 ```
 
 ---

@@ -20,7 +20,6 @@
         position: sticky !important;
     }
 }
-
 @media (min-width: 768px) {
     .position-md-static {
         position: static !important;
@@ -42,7 +41,6 @@
         position: sticky !important;
     }
 }
-
 @media (min-width: 992px) {
     .position-lg-static {
         position: static !important;
@@ -63,8 +61,31 @@
     .position-lg-sticky {
         position: sticky !important;
     }
+    .border-lg-top {
+        border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    }
+    .border-lg-bottom {
+        border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    }
+    .border-lg-start {
+        border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    }
+    .border-lg-end {
+        border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    }
+    .border-lg-top-0 {
+        border-top: none;
+    }
+    .border-lg-bottom-0 {
+        border-bottom: none;
+    }
+    .border-lg-start-0 {
+        border-left: none;
+    }
+    .border-lg-end-0 {
+        border-right: none;
+    }
 }
-
 @media (min-width: 1200px) {
     .position-xl-static {
         position: static !important;
@@ -85,4 +106,54 @@
     .position-xl-sticky {
         position: sticky !important;
     }
+}
+
+/* 
+    Animaciones
+*/
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+/*  */
+.dropdown-menu {
+    /* -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; */
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+    animation-duration: 0.7s;
+    -webkit-animation-duration: 0.7s;
+    animation-fill-mode: ease-in-out;
+    -webkit-animation-fill-mode: ease-in-out;
 }

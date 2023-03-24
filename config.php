@@ -62,8 +62,12 @@
     }
     # 
     $header = $setup->data->header->texts;
+    $header->logo = $setup->project->directories->paths->assets->img . $setup->project->meta->logo->icon;
+    #
     $section = $section->texts;
+    #
     $footer = $setup->data->footer->texts;
+    $footer->logo = $setup->project->directories->paths->assets->img . $setup->project->meta->logo->img;
     #   
     if(!is_null(error_get_last())) {
         var_dump(error_get_last());
