@@ -132,6 +132,12 @@
                 "title": "Login"
             }
         },
+        "about": {
+            "author": "Florentín, Alexandru",
+            "texts": {
+                "title": "About"
+            }
+        },
         "service": [
             {
                 "author": "Alexandru Mirón",
