@@ -21,7 +21,7 @@
               foreach($header->socials as $value){
                 echo <<<HTML
                 <div class="col">
-                  <a class="nav-link me-lg-2 p-2" href="$value->url">
+                  <a class="nav-link me-lg-2 p-2" target="_blank" href="$value->url">
                     <i class="$value->icon fs-5"></i>
                   </a>
                 </div>

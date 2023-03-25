@@ -1,14 +1,17 @@
 <?php
     #   
     function get_path(){
-        $path = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
-        if(!isset($_SERVER['HTTP_REFERER']) || isset($_SERVER['HTTP_REFERER'])) $_SERVER['HTTP_REFERER'] = $path;
-        return preg_replace('/.\w+(\.[^\/.]+).+/', '', $path);
+        $project_dir = basename(__DIR__);
+        $protocol = isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) ? 'https://' : 'http://';
+        $path = $protocol . $_SERVER['HTTP_HOST']. $_SERVER['REQUEST_URI'];
+        $resp = preg_replace("/(?<=$project_dir).+/mi", '', $path, 1);
+        $path = $resp ?? $path;
+        return $path; # '/.\w+(\.[^\/.]+).+/'
     }
     function get_params() {
-        $path = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
-        if(!isset($_SERVER['HTTP_REFERER']) || isset($_SERVER['HTTP_REFERER'])) $_SERVER['HTTP_REFERER'] = $path;
-        return preg_replace('/.+\w+(\.[^\/.]+)./m', '', $path);
+        $project_dir = basename(__DIR__);
+        $path = preg_replace("/.*(?<=$project_dir)/mi", '', $_SERVER['REQUEST_URI'], 1);
+        return preg_replace('/^[^a-zA-Z0-9]|[^a-zA-Z0-9]$/', '', $path);
     }
     #   
     ini_set('display_errors','Off');

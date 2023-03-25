@@ -123,7 +123,53 @@
         "home": {
             "author" : "Wily",
             "texts": {
-                "title": "Inicio"
+                "title": "Inicio",
+                "video": {
+                    "title": "nuestra filosofía",
+                    "url": "https://www.youtube-nocookie.com/embed/tDdQDmXZVGg?vq=hd720"
+                },
+                "aptitudes": [
+                    {
+                        "image": "https://picsum.photos/75/75?random=${key}",
+                        "title": "primera aptitud",
+                        "desc": "Esta es la primera aptitud brevemente"
+                    },
+                    {
+                        "image": "https://picsum.photos/75/75?random=${key}",
+                        "title": "segunda aptitud",
+                        "desc": "Esta es la segunda aptitud brevemente"
+                    },
+                    {
+                        "image": "https://picsum.photos/75/75?random=${key}",
+                        "title": "tercera aptitud",
+                        "desc": "Esta es la tercera aptitud brevemente"
+                    },
+                    {
+                        "image": "https://picsum.photos/75/75?random=${key}",
+                        "title": "cuarta aptitud",
+                        "desc": "Esta es la cuarta aptitud brevemente"
+                    }
+                ],
+                "services": [
+                    {
+                        "desc": "Cuidado de personas con dependencia física",
+                        "title": "Servicio ${service}",
+                        "image": "Imagen Servicio ${service}",
+                        "url": "service/${service}"
+                    },
+                    {
+                        "desc": "Cuidado de personas mayores",
+                        "title": "Servicio ${service}",
+                        "image": "Imagen Servicio ${service}",
+                        "url": "service/${service}"
+                    },
+                    {
+                        "desc": "Compañía a niños en riesgo de exclusión",
+                        "title": "Servicio ${service}",
+                        "image": "Imagen Servicio ${service}",
+                        "url": "service/${service}"
+                    }
+                ]
             }
         },
         "login": {
