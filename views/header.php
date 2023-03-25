@@ -54,7 +54,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= $header->menu->about->url ?>">
+              <a class="nav-link" href="<?= HOST . $header->menu->about->url ?>">
                 <?= $header->menu->about->title ?>
               </a>
             </li>
